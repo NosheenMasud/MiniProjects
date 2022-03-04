@@ -16,8 +16,8 @@ if answer.lower().strip() == "central processing unit":
     score += 1
 else:
     print("Incorrect! Try again")
-    while score > 0:
-        score -= 1
+    #while score > 0:
+    score -= 1
 
 answer = input("What does RAM stand for? ")
 if answer.lower().strip() == "random access memory":
@@ -25,41 +25,41 @@ if answer.lower().strip() == "random access memory":
     score += 1
 else:
     print("Incorrect! Try again")
-    while score > 0:
-        score -= 1
+    #while score > 0:
+    score -= 1
 
 answer = input("What does PSU stand for? ")
 if answer.lower().strip() == "power supply unit":
-    print("Correct! A gold star for you * ")
+    print("Correct! Another gold star for you * ")
     score += 1
 else:
     print("Incorrect! Try again")
-    while score > 0:
-        score -= 1
+    #while score > 0:
+    score -= 1
 
 answer = input("In the software development principles, what does DRY stand for? ")
 if answer.lower().strip() == "dont repeat yourself":
-    print("Correct! A gold star for you * ")
+    print("Correct! Another gold star for you * ")
     score += 1
 else:
     print("Incorrect! Try again")
-    while score > 0:
-        score -= 1
+    #while score > 0:
+    score -= 1
 
 answer = input("In the software development principles, what does KISS stand for? ")
 if answer.lower().strip() == "keep it simple stupid":
-    print("Correct! A gold star for you * ")
+    print("Correct! Another gold star for you * ")
     score += 1
 else:
     print("Incorrect! Try again")
-    while score > 0:
-        score -= 1
+    #while score > 0:
+    score -= 1
 
 print("Your total score is " + str(score) + " gold stars!" )
 
 if score >= 4:
     print("You're doing well, keep up the hard work!")
 elif score <= 2:
-    print("Hmmmm... were you not sleeping in class maestro... ?")
+    print("Hmmmm... were you sleeping in class maestro... ?")
 else:
     print("It seems you'll scrape by.... I hope you're having a lot of fun in the process")
